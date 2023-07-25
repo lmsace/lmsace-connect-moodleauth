@@ -11,15 +11,14 @@ After the installation of the LMSACE Connect SSO plugin, it needs to be enabled 
 
 ### Version
 
-Plugin version: 1.0
-Released on: 28 April 2023
-Authors: https://lmsace.com, LMSACE Dev Team
+    * Plugin version: 1.0
+    * Released on: 28 April 2023
+    * Authors: https://lmsace.com, LMSACE Dev Team
 
 ### Git Repository
 
-Private Git Repository
+LMSACE Connect Moodle auth - [https://github.com/lmsace/lmsace-connect-moodleauth](https://github.com/lmsace/lmsace-connect-moodleauth)
 
-https://github.com/lmsace/lmsace-connect-moodleauth
 
 ### Installation steps using ZIP file.
 
@@ -46,5 +45,3 @@ https://github.com/lmsace/lmsace-connect-moodleauth
 
 ## Support
 If you need any assistance with the LMSACE Connect SSO plugin, please contact LMSACE support at info@lmsace.com.
-
-
