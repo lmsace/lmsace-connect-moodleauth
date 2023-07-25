@@ -24,6 +24,8 @@
 
 namespace auth_lmsace_connect;
 
+require_once($CFG->libdir . "/externallib.php");
+
 use external_api;
 use external_function_parameters;
 use external_single_structure;
@@ -85,8 +87,8 @@ class external extends external_api {
         return new external_single_structure(
             array(
                 'loginkey' => new \external_value( PARAM_RAW, 'Login key for a user to log in' ),
-                'userid' => new \external_value( PARAM_INT, 'Created user id', VALUE_OPTIONAL ),
-                'username' => new \external_value(\core_user::get_property_type('username'), 'User name', VALUE_OPTIONAL),
+               /*  'userid' => new \external_value( PARAM_INT, 'Created user id', VALUE_OPTIONAL ),
+                'username' => new \external_value(\core_user::get_property_type('username'), 'User name', VALUE_OPTIONAL), */
             )
         );
     }
@@ -100,7 +102,7 @@ class external extends external_api {
 
         return new external_function_parameters(
             array(
-                'userid' => new \external_value(PARAM_INT, 'id of the conversation', VALUE_OPTIONAL),
+                'userid' => new \external_value(PARAM_INT, 'id of the conversation'),
             )
         );
     }

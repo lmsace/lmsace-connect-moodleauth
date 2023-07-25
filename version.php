@@ -23,7 +23,7 @@
  */
 
 $plugin->component = 'auth_lmsace_connect';
-$plugin->version = 2023062500;
+$plugin->version = 2023062400;
 $plugin->release = 'v1.0';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->dependencies = [
