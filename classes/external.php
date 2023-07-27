@@ -87,8 +87,8 @@ class external extends external_api {
         return new external_single_structure(
             array(
                 'loginkey' => new \external_value( PARAM_RAW, 'Login key for a user to log in' ),
-               /*  'userid' => new \external_value( PARAM_INT, 'Created user id', VALUE_OPTIONAL ),
-                'username' => new \external_value(\core_user::get_property_type('username'), 'User name', VALUE_OPTIONAL), */
+                'userid' => new \external_value( PARAM_INT, 'Created user id', VALUE_OPTIONAL ),
+                'username' => new \external_value(\core_user::get_property_type('username'), 'User name', VALUE_OPTIONAL),
             )
         );
     }
@@ -123,7 +123,7 @@ class external extends external_api {
     }
 
     /**
-     * REturn the status of user logged in.
+     * Return the status of the user logged in.
      *
      * @return bool
      */
